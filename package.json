@@ -1,0 +1,17 @@
+{
+  "name": "how-many-keys",
+  "version": "1.0.0",
+  "description": "Query how many keys for your substrate chain",
+  "main": "index.js",
+  "author": "bear",
+  "license": "MIT",
+  "scripts": {
+    "index": "ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "@polkadot/api": "^8.1.1"
+  }
+}
